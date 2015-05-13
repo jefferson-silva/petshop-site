@@ -32,6 +32,39 @@ li {
 			margin-right: 0;
 		}
 
+.featured-posts-bottom {
+	background: #310000;
+	overflow: hidden;
+	padding-bottom: 40px;
+}
+
+	.featured-posts-bottom li {
+		float: left;
+		position: relative;
+	}
+
+		.featured-posts-bottom h4 {
+			color: #bbff00;
+			font: bold 16px Arial;
+			position: absolute;
+			left: 20px;
+			top: 70px;
+		}
+
+		.featured-posts-bottom p {
+			color: #fff;
+			font: 14px Arial;
+			position: absolute;
+			left: 20px;
+			line-height: 20px;
+			top: 105px;
+		}
+
+			.featured-posts-bottom .read-more {
+				color: #ff6c00;
+				text-decoration: none;
+			}
+
 .footer {
 	color: #a36f00;
 	background: #ffad00;
