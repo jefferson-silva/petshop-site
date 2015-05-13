@@ -3,6 +3,35 @@ body {
 	padding: 0;
 }
 
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style: none;
+}
+
+
+.container {
+	margin: 0 auto;
+	width: 960px;
+}
+
+.features-bottom {
+	background: #f8f3e9;
+	padding: 20px 0;
+}
+
+	.features-bottom li {
+		display: inline-block;
+		margin-right: 26px;
+	}
+
+		.features-bottom li:last-child {
+			margin-right: 0;
+		}
+
 .footer {
 	color: #a36f00;
 	background: #ffad00;
