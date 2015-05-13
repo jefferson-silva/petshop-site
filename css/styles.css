@@ -1,0 +1,16 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.footer {
+	color: #a36f00;
+	background: #ffad00;
+	font: 12px Arial;
+	text-align: center;
+}
+
+	.footer p {
+		margin: 0;
+		padding: 20px 0;
+	}
