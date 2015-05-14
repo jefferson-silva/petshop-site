@@ -81,11 +81,14 @@ li {
 	margin-top: 40px;
 }
 
+	.main ul {
+		width: 66%;
+	}
+
 	.main li {
 		float: left;
 		margin-bottom: 60px;
-		margin-right: 20px;
-		width: 33%;
+		width: 50%;
 	}
 
 	.main .item-ico {
