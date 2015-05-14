@@ -79,11 +79,8 @@ li {
 
 .main {
 	margin-top: 40px;
+	width: 66%;
 }
-
-	.main ul {
-		width: 66%;
-	}
 
 	.main li {
 		float: left;
