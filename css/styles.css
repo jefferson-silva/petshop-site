@@ -76,6 +76,9 @@ li {
 	width: 100%;
 }
 
+.page-content {
+	position: relative;
+}
 
 .main {
 	margin-top: 40px;
@@ -103,8 +106,47 @@ li {
 		color: #7f7154;
 		font-size: 14px;
 		line-height: 24px;
+		padding-right: 15px;
 		text-align: justify;
 	}
+
+.side-menu {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 33%;
+}
+
+	.search-box {
+		background: #ffac00;
+		border-radius: 5px;
+		color: #fff;
+		padding: 10px;
+	}
+
+		.search-box input {
+			border-radius: 5px;
+			padding: 8px;
+		}
+
+		.search-box input[type=text] {
+			border: 1px solid #e59a00;
+			box-shadow: -3px -3px 7px 4px rgba(0, 0, 0, .15) inset;
+			width: 193px;
+		}
+
+		.search-box input[type=submit] {
+			background: #ffac00;
+			border: 1px solid #ffc600;
+			color: #fff;
+			font-size: 14px;
+			padding: 5px 14px;
+		}
+
+		.search-box input[type=radio] {
+			margin-top: 20px;
+			margin-right: 5px;
+		}
 
 .features-bottom {
 	background: #f8f3e9;
