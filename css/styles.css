@@ -118,25 +118,62 @@ li {
 	width: 33%;
 }
 
-	.search-box {
+	.search-box,
+	.search-box-alt {
 		background: #ffac00;
 		border-radius: 5px;
 		color: #fff;
 		padding: 10px;
 	}
 
-		.search-box input {
+	.search-box-alt {
+		margin: 0 auto;
+		margin-top: 50px;
+		position: relative;
+		width: 540px;
+	}
+
+	.search-box-alt:before,
+	.search-box-alt:after {
+		background: #e8e2d6;
+		border-radius: 5px;
+		content: " ";
+		display: block;
+		height: 38px;
+		position: absolute;
+		width: 38px;
+		z-index: -1;
+	}
+
+	.search-box-alt:before {
+		left: -5px;
+		bottom: -5px;
+	}
+
+	.search-box-alt:after {
+		right: -5px;
+		bottom: -5px;
+	}
+
+		.search-box input,
+		.search-box-alt input {
 			border-radius: 5px;
 			padding: 8px;
 		}
 
-		.search-box input[type=text] {
+		.search-box input[type=text],
+		.search-box-alt input[type=text] {
 			border: 1px solid #e59a00;
 			box-shadow: -3px -3px 7px 4px rgba(0, 0, 0, .15) inset;
 			width: 193px;
 		}
 
-		.search-box input[type=submit] {
+		.search-box-alt input[type=text] {
+			width: 436px;
+		}
+
+		.search-box input[type=submit],
+		.search-box-alt input[type=submit] {
 			background: #ffac00;
 			border: 1px solid #ffc600;
 			color: #fff;
@@ -144,10 +181,27 @@ li {
 			padding: 5px 14px;
 		}
 
-		.search-box input[type=radio] {
+		.search-box-alt input[type=submit] {
+			background: #ffc650;
+			border: 1px solid #e79b00;
+			box-shadow: inset -3px -3px 8px 0px rgba(255, 255, 255, 0.75);
+			padding: 6px 14px;
+		}
+
+		.search-box input[type=radio],
+		.search-box-alt input[type=radio] {
 			margin-top: 15px;
 			margin-right: 5px;
 		}
+
+	.ads {
+		margin-top: 40px;
+	}
+
+	.pull-up {
+		/* TODO: Fix this hack; */
+		margin-top: -18px !important;
+	}
 
 .items-list {
 	margin-top: 30px;
