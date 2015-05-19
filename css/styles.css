@@ -130,7 +130,7 @@ li {
 		margin: 0 auto;
 		margin-top: 50px;
 		position: relative;
-		width: 540px;
+		width: 530px;
 	}
 
 	.search-box-alt:before,
@@ -169,7 +169,7 @@ li {
 		}
 
 		.search-box-alt input[type=text] {
-			width: 436px;
+			width: 426px;
 		}
 
 		.search-box input[type=submit],
