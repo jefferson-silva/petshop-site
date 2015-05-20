@@ -78,12 +78,12 @@ li {
 
 .page-content {
 	position: relative;
+	margin-top: 50px;
 }
 
 .main {
-	margin-top: 40px;
-	padding-top: 40px;
 	width: 66%;
+	display: inline-block;
 }
 
 	.main li {
@@ -112,9 +112,8 @@ li {
 	}
 
 .side-bar {
-	position: absolute;
-	right: 0;
-	top: 0;
+	float: right;
+	display: inline-block;
 	width: 33%;
 }
 
@@ -195,7 +194,6 @@ li {
 		}
 
 	.ads {
-		margin-top: 40px;
 	}
 
 	.pull-up {
