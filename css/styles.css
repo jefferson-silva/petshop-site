@@ -344,18 +344,21 @@ article a {
 
 .features-bottom {
 	background: #f8f3e9;
+	font-size: 0;
 	margin-top: 30px;
 	padding: 20px 0;
+	text-align: justify;
 }
+
+	.features-bottom ul:after {
+		content: '';
+		display: inline-block;
+		width: 100%;
+	}
 
 	.features-bottom li {
 		display: inline-block;
-		margin-right: 26px;
 	}
-
-		.features-bottom li:last-child {
-			margin-right: 0;
-		}
 
 .featured-posts-bottom {
 	background: #310000;
