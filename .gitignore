@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
@@ -44,3 +45,9 @@ Temporary Items
 
 
 *.sublime*
+=======
+
+rwd101/.DS_Store
+
+.DS_Store
+>>>>>>> b6a0b5f212805e9d9f573676e4e80e8e6e64d8b2
