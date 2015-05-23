@@ -43,7 +43,7 @@ article a {
 
 .nav {
 	display: inline-block;
-	margin-top: 36px;
+	margin-top: 37px;
 }
 
 	.nav ul,
@@ -59,7 +59,8 @@ article a {
 			color: #000;
 			font: 14px Arial;
 			line-height: 36px;
-			padding: 0 25px;
+			padding: 10px 25px;
+			margin-left: -5px;
 			text-decoration: none;
 		}
 
@@ -69,7 +70,20 @@ article a {
 			display: inline-block;
 			float: right;
 			height: 36px;
+			margin-top: -1px;
 			width: 2px;
+		}
+
+		.nav a.active {
+			background: url('../img/active-menu.png') no-repeat;
+		}
+
+		.nav a.active-first {
+			background: url('../img/active-menu-first.png') no-repeat;
+		}
+
+		.nav a.active-last {
+			background: url('../img/active-menu-last.png') no-repeat;
 		}
 
 		.nav li:last-child a:after {
