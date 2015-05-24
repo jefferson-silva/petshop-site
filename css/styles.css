@@ -356,6 +356,87 @@ article a {
 		float: right;
 	}
 
+	
+	.archive {
+		border: 2px solid #f3f3f3;
+		border-radius: 12px;
+		box-sizing: border-box;
+		padding: 26px;
+		padding-top: 0;
+	}
+
+	.archive .archive-title {
+		color: #301a00;
+		font-size: 20px;
+	}
+
+	.archive .ui-accordion-header {
+		background: none;
+		border: none;
+		color: #766048;
+		font-style: 20px;
+		padding-top: 5px;
+	}
+
+		.archive .ui-accordion-header:first-child:before,
+		.archive .ui-accordion-header:after {
+			background: url('../img/archive-divider.png');
+			content: '';
+			display: inline-block;
+			height: 2px;
+			margin-left: -30px;
+			position: relative;
+			width: 100%;
+		}
+
+		.archive .ui-accordion-header:before {
+			margin-bottom: 10px;
+		}
+
+		.archive .ui-accordion-header:after {
+		}
+
+		.archive .ui-accordion-header:focus {
+			outline: none;
+		}
+
+		.archive .ui-accordion-header:last-child:after {
+			background: red !important;
+		}
+
+		.archive .ui-accordion-header span {
+			color: #bc6811;
+		}
+
+	.archive .ui-accordion-content {
+		border: none;
+		padding-top: 0 !important;
+	}
+
+		.archive .ui-accordion-content a {
+			color: #766048;
+			display: block;
+			font-size: 14px;
+			text-decoration: none;
+			margin-bottom: 5px;
+		}
+
+		.archive .ui-accordion-content span {
+			color: #bc6811;
+		}
+
+	.archive span.ui-accordion-header-icon.ui-icon-triangle-1-s {
+		background: url('../img/archive-up-arrow.png') no-repeat;
+		height: 14px;
+		width: 11px;
+	}
+
+	.archive span.ui-accordion-header-icon.ui-icon-triangle-1-e {
+		background: url('../img/archive-down-arrow.png') no-repeat;
+		height: 14px;
+		width: 11px;
+	}
+
 
 .features-bottom {
 	background: #f8f3e9;
