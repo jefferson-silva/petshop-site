@@ -17,10 +17,47 @@ article {
 	margin-bottom: 50px;
 }
 
+article.blog-post {
+	background: url('../img/post-bg.png') no-repeat;
+	padding: 20px;
+	padding-top: 5px;
+	position: relative;
+}
+
+article.blog-post .post-social {
+	position: absolute;
+	right: 55px;
+	top: 20px;
+}
+
+article.blog-post .post-social a {
+	display: inline-block;
+	height: 20px;
+	width: 20px;
+}
+
+article.blog-post .post-date {
+	background: url('../img/post-flag.png') no-repeat;
+	color: #fff;
+	font-style: 14px;
+	height: 96px;
+	padding-left: 35px;
+	padding-top: 30px;
+	position: absolute;
+	left: -19px;
+	top: -10px;
+	width: 119px;
+}
+
 article h1 {
 	color: #ff9600;
 	font-style: 20px;
 	font-weight: normal;
+	margin-left: 80px;
+}
+
+article.blog-post p {
+	line-height: 22px !important;
 }
 
 article a {
