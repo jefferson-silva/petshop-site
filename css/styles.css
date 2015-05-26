@@ -64,6 +64,22 @@ article a {
 	color: #35230e;
 }
 
+.post-navigation a {
+	background: url('../img/post-nav-divider.png') no-repeat;
+	color: #897e75;
+	display: inline-block;
+	font-style: 16px;
+	padding-top: 15px;
+	text-align: center;
+	text-decoration: none;
+	width: 120px;
+}
+
+.post-navigation .old-post {
+	float: right;
+	margin-right: 25px;
+}
+
 .container {
 	margin: 0 auto;
 	width: 960px;
