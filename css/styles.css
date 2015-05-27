@@ -90,13 +90,47 @@ article a {
 	margin-right: 10%;
 }
 
-.petguide-box h2 {
+.petguide .petguide-box h2 {
 	color: #fff;
 	background: #ff9d11;
 	font-size: 18px;
 	font-weight: normal;
 	text-align: center;
 	padding: 10px 0;
+}
+
+.petguide-nav {
+	border-top: 2px dotted #d8d2c7;
+	padding-top: 18px;
+	width: 90%;
+}
+
+.petguide-nav li {
+	margin: 0 !important;
+	margin-right: 10px !important;
+	width: 40px !important;
+}
+
+.petguide-nav a {
+	background: #c3bcae;
+	border-radius: 10px;
+	color: #fff;
+	display: inline-block;
+	font-style: 20px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	text-decoration: none;
+	width: 40px;
+}
+
+.petguide-nav .petguide-nav-active {
+	background: #c8b182 !important;
+}
+
+.petguide-nav .petguide-nav-next {
+	text-transform: uppercase;
+	width: 100px;
 }
 
 
