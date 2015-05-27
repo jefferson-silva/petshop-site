@@ -133,6 +133,16 @@ article a {
 	width: 100px;
 }
 
+.petguide-overview a {
+	color: #766048;
+	line-height: 25px;
+	text-decoration: none;
+}
+
+.petguide-overview a span {
+	color: #bc6811;
+}
+
 
 .container {
 	margin: 0 auto;
