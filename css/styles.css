@@ -80,6 +80,26 @@ article a {
 	margin-right: 25px;
 }
 
+
+.petguide .petguide-box {
+	margin-bottom: 20px;
+	width: 40%;
+}
+
+.petguide .petguide-box:nth-child(odd) {
+	margin-right: 10%;
+}
+
+.petguide-box h2 {
+	color: #fff;
+	background: #ff9d11;
+	font-size: 18px;
+	font-weight: normal;
+	text-align: center;
+	padding: 10px 0;
+}
+
+
 .container {
 	margin: 0 auto;
 	width: 960px;
