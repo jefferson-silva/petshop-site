@@ -53,6 +53,9 @@ article h1 {
 	color: #ff9600;
 	font-style: 20px;
 	font-weight: normal;
+}
+
+article.blog-post .post-title {
 	margin-left: 80px;
 }
 
@@ -572,7 +575,7 @@ article a {
 }
 
 .follow-us {
-	margin-left: 50px;
+	margin-left: 50px;	
 }
 
 .follow-us a {
