@@ -555,6 +555,50 @@ article a {
 	}
 
 
+#page-contact h4 {
+	border-bottom: 1px solid #ebebeb;
+	color: #412900;
+	font-size: 16px;
+	margin-top: 80px;
+	padding-bottom: 5px;
+}
+
+.follow-us-title {
+	color: #ff9600;
+	font-size: 28px;
+	font-style: italic;
+	font-weight: 600;
+	margin-bottom: 44px;
+}
+
+.follow-us {
+	margin-left: 50px;
+}
+
+.follow-us a {
+	color: #938a8a;
+	display: block;
+	font-size: 16px;
+	text-decoration: none;
+}
+
+.follow-us a:after {
+	background: url('../img/follow-divider.png') no-repeat;
+	content: '';
+	display: block;
+	height: 1px;
+	margin: 24px 0;
+	width: 100%;
+}
+
+.follow-us a:last-child:after {
+	display: none;
+}
+
+.follow-us img {
+	margin-right: 30px;
+}
+
 .features-bottom {
 	background: #f8f3e9;
 	font-size: 0;
